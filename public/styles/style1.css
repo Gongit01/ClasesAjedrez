@@ -177,10 +177,10 @@ header .logo .elementobarra {
 @media  screen and (max-width: 700px) {
   
   header {
-  width: 100%;
+    width: 100%;
   }
   .CajaFondo {
-  width:100%;
+    width:100%;
   }
   .CajaClases {
     width:80%;
@@ -191,6 +191,28 @@ header .logo .elementobarra {
   .CajaMetodo{   
     width:100%;   
   }
+
+
+  .Formulario{
+    width: 95%;
+  }
+  .Formulario label{
+    width: 40%;
+    font-size: 16px;
+  }
+.Formulario input{
+  width: 60%;
+  font-size: 16px;
+}
+.Formulario textarea{
+  width: 60%;
+  max-width: 60%;
+  font-size: 16px;
+}
+
+
+
+
   .CajaRespuesta{
   font-size: 20px;
   }
