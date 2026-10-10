@@ -197,16 +197,16 @@ header .logo .elementobarra {
     width: 95%;
   }
   .Formulario label{
-    width: 40%;
+    width: 30%;
     font-size: 16px;
   }
 .Formulario input{
-  width: 60%;
+  width: 70%;
   font-size: 16px;
 }
 .Formulario textarea{
-  width: 60%;
-  max-width: 60%;
+  width: 70%;
+  max-width: 70%;
   font-size: 16px;
 }
 
