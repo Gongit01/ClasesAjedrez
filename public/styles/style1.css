@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Sans-Serif;
+	background:#c5c7cb;
+}
+
+header {
+  width: 80%;
+  display:block;
+  margin: auto;
+  padding:2vh 2vw 1vh 2vw;
+  height: 12vh;
+	background:#2c3e50;
+}
+
+header .logo .elementobarra {
+	height: 8vh;
+}
+
+.CajaFondo {
+  background:#d0d1ce;
+  width:80%;  
+	margin:auto;
+  min-height:100vh;
+	display:flex;
+	flex-flow:row wrap;
+  gap: 20px;
+  /*align-items: center;*/
+}
+
+.CajaClases {
+  background:#ffffff;
+  width:50%;
+  /*height: 300px;  **/
+	margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.CajaClasesTitulo{
+ font-size: 40px;
+ padding: 10px 10px 10px 10px;
+ color:#414040;
+ font-weight:bold;
+}
+.CajaClasesContenido{
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px 10px 10px 10px;
+  color:#414040;
+  font-weight:600;
+  text-align: center;
+}
+.CajaClasesPrecio{
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px 10px 10px 10px;
+  color:#ee8d42;
+  font-weight: 600;
+  display: flex;
+  flex-flow:row wrap;
+  align-items: center;
+  justify-content:space-around;
+}
+
+
+
+
+.CajaMetodo{   
+  width:70%;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  color:#414040;
+  line-height: 1.5;
+  display: flex;
+  flex-flow:column wrap;
+}
+.CajaMetodoTitulo{
+  font-size: 30px;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;  
+  margin-top: 30px;  
+  font-weight:bold;
+}
+
+.CajaMetodoContenido{  
+  display:flex;
+	flex-flow:row wrap;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight:600;
+}
+.CajaMetodoContenidoImagen{
+  width: 10%;
+}
+.CajaMetodoContenido img{
+  width: 60%;
+}
+.CajaMetodoContenidoTexto{
+  width: 70%;
+}
+.CajaMetodoContenidoTexto img{
+  display: block;
+  margin: 0 auto;
+}
+
+.Formulario{
+  display:flex;
+	flex-flow:row wrap;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+.Formulario label{
+  width: 50%;
+  font-size: 20px;
+  font-weight:600;
+  padding: 10px 10px 10px 10px;
+  margin-top: 20px;
+  color:#414040;
+}
+.Formulario input{
+  width: 50%;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px; 
+}
+.Formulario textarea{
+  width: 50%;
+  max-width: 50%;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px 20px 5px 20px; 
+}
+.BotonEnviarFormulario{
+  background-color: #cdcfd1;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.CajaRespuesta{
+  /*background-color: #ffffff;*/
+  display: flex;
+  flex-flow:column wrap;
+  gap: 40px;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.CajaRespuesta a{
+  text-decoration: none;
+  padding: 20px;
+} 
+
+.hide {
+  display: none;
+}					
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  */
+
+@media  screen and (max-width: 700px) {
+  
+  header {
+  width: 100%;
+  }
+  .CajaFondo {
+  width:100%;
+  }
+  .CajaClases {
+    width:80%;
+  }
+  .CajaClasesPrecio{
+    display: block;
+  }
+  .CajaMetodo{   
+    width:100%;   
+  }
+  .CajaRespuesta{
+  font-size: 20px;
+  }
+
+
+}
