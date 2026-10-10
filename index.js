@@ -4,8 +4,7 @@ const path = require("path");
 //const SocketIO = require("socket.io");
 const { log } = require("console");
 //Seguridad para los formularios
-//const xss = require('xss');
-const { xss } = require('express-xss-sanitizer');
+
 
 
 
